@@ -11,7 +11,4 @@ theme_ft
 \description{
 This function adds an object theme_ft, to the global environment. It is used like this plot + theme_ft()
 }
-\examples{
-load_theme_ft()
-}
 \keyword{datasets}
