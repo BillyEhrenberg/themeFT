@@ -1,4 +1,4 @@
-theme_ft <- ggplot2::theme_minimal()+
+theme_ft <<- ggplot2::theme_minimal()+
   ggplot2::theme(
     plot.background =  ggplot2::element_rect(fill = '#fff1e5'),
     panel.background =  ggplot2::element_blank(),
