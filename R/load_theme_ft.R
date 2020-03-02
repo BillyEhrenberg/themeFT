@@ -4,7 +4,7 @@
 #' @examples
 
 
-  theme_ft <- theme_minimal()+
+  theme_ft <- ggplot2::theme_minimal()+
     theme(
       plot.background = element_rect(fill = '#fff1e5'),
       panel.background = element_blank(),
