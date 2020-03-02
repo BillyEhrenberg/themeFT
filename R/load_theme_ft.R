@@ -1,12 +1,12 @@
-#' A function to plot all the palettes in gchartcolour for colour picking
+#' #' A function to plot all the palettes in gchartcolour for colour picking
+#' #'
+#' #' This function loads a basic FT theme
+#' #' @export
+#' #' @examples
+#' #' load_theme_ft()
 #'
-#' This function loads a basic FT theme
-#' @export
-#' @examples
-#' load_theme_ft()
-
-
-load_theme_ft <- function(){
+#'
+#' load_theme_ft <- function(){
 
   theme_ft <<- ggplot2::theme_minimal()+
   ggplot2::theme(
@@ -23,7 +23,7 @@ load_theme_ft <- function(){
     legend.box.background =  ggplot2::element_blank()
   )
 
-}
+# }
 
 
 # usethis::use_data(theme_ft, overwrite = T)
