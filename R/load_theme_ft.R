@@ -5,7 +5,7 @@
 
 
   theme_ft <- ggplot2::theme_minimal()+
-    theme(
+    ggplot2::theme(
       plot.background = element_rect(fill = '#fff1e5'),
       panel.background = element_blank(),
       panel.grid.major = element_line(color = '#e6d9ce'),
